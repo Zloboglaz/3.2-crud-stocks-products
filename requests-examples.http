@@ -11,6 +11,21 @@ Content-Type: application/json
   "description": "Лучшие помидоры на рынке"
 }
 
+# {
+#   "title": "Огурец",
+#   "description": "Зеленыйе с пупырками"
+# }
+
+# {
+#   "title": "Слива",
+#   "description": "Синяя"
+# }
+
+# {
+#   "title": "Картофель",
+#   "description": "Белый для варки"
+# }
+
 ###
 
 # получение продуктов
@@ -64,7 +79,7 @@ Content-Type: application/json
 ###
 
 # обновляем записи на складе
-PATCH {{baseUrl}}/stocks/4/
+PATCH {{baseUrl}}/stocks/1/
 Content-Type: application/json
 
 {
